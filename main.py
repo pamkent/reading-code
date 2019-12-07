@@ -1,7 +1,9 @@
 from Hangman import Hangman
 #welcomes the user to the game 
 print("Welcome to Hangman!\n")
+#prompts the user if they would like to play
 play = input("Would you like to play a game? (y/N) ")
+#
 if play.lower() != "y":
    print("Maybe later! Goodbye!")
    exit()
